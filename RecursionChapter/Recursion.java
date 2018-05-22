@@ -91,6 +91,6 @@ public class Recursion {
 //        fibMemoi(7);
 //        System.out.println(countWays(5));
 //        findPathConstructor();
-        magicIndex();
+//        magicIndex();
     }
 }
