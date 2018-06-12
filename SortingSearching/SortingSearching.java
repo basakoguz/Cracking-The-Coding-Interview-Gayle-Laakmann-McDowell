@@ -4,7 +4,6 @@ public class SortingSearching {
 
     public static void merge(int[] arr1, int[] arr2) {
         if(firstIsLarger(arr1, arr2)) {
-            System.out.println("Before: " + Arrays.toString(arr1));
             int diff = arr1.length - arr2.length;
             int last1 = diff - 1;
             int last2 = arr2.length - 1;
@@ -20,9 +19,8 @@ public class SortingSearching {
                     last2--;
                 }
             }
-            System.out.println("After: " + Arrays.toString(arr1));
+            System.out.println(Arrays.toString(arr1));
         } else {
-            System.out.println("Before: " + Arrays.toString(arr2));
             int diff = arr2.length - arr1.length;
             int last2 = diff - 1;
             int last1 = arr1.length - 1;
@@ -38,7 +36,7 @@ public class SortingSearching {
                     last1--;
                 }
             }
-            System.out.println("After: " + Arrays.toString(arr2));
+            System.out.println(Arrays.toString(arr2));
         }
     }
 
